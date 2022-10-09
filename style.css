@@ -1,0 +1,51 @@
+body{
+    font-family: Roboto;
+}
+
+header, footer{
+    background: #1f2937;
+    color: #fff;
+    align-items: center;
+    /* text-align: center; */
+    padding: 20px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+    padding: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.landing{
+    display: flex;
+    align-items: center;
+    
+}
+
+.landing-image{
+    width: 180px;
+    height: 100px;
+    
+}
+
+.sign-up-btn{
+    background: blue;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+}
