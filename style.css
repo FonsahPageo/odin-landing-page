@@ -1,25 +1,24 @@
-body{
+body {
     font-family: Roboto, sans-serif;
 }
 
-header{
+header {
     background: #1f2937;
     color: #fff;
     align-items: center;
-    /* text-align: center; */
     padding: 30px;
 }
 
-header .logo{
-    font-size: 18px;
-    color: #e5e7eb;
+header .logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
-header h2{
+header h2 {
     font-size: 48px;
 }
 
-footer{
+footer {
     background: #1f2937;
     color: #fff;
     align-items: center;
@@ -27,39 +26,41 @@ footer{
     padding: 10px;
 }
 
-header nav{
+header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
 }
 
-header nav ul li{
+header nav ul li {
     float: left;
     padding: 10px;
 }
 
-header nav ul li a{
+header nav ul li a,
+.landing p {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
 
-.landing{
+.landing {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.landing-image{
-    width: 180px;
-    height: 100px;
-    
+.landing-image {
+    width: 200px;
+    height: 140px;
+
 }
 
-.sign-up-btn{
+.sign-up-btn {
     background: #3882f6;
     color: #fff;
     border: 1px solid white;
@@ -67,48 +68,49 @@ header nav ul li a{
     padding: 4px;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.container-items{
+.container-items {
     display: flex;
+    flex: 1;
     gap: 10px;
     text-align: center;
 }
 
-.one{
+.one {
     border: 0.2em solid blue;
     border-radius: 10px;
     width: 100px;
     height: 100px;
 }
 
-.quote{
+.quote {
     background: #e5e7eb;
     padding: 40px;
     justify-content: center;
-    /* width: 100%; */
     font-size: 18px;
     font-style: italic;
     color: #1f2937;
 }
 
-.author{
+.author {
     float: right;
     font-weight: bold;
 }
 
-.sign-up{
+.sign-up {
     display: flex;
     align-items: center;
+    margin: 20px;
+    border-radius: 10px;
     background: #3882f6;
     color: #fff;
-    justify-content: center;
-    padding: 20px;
+    padding: 15px;
     justify-content: space-evenly;
-    width: 80vw;
+    width: 70%;
 }
