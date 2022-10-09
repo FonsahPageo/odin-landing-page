@@ -1,13 +1,30 @@
 body{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 
-header, footer{
+header{
     background: #1f2937;
     color: #fff;
     align-items: center;
     /* text-align: center; */
-    padding: 20px;
+    padding: 30px;
+}
+
+header .logo{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header h2{
+    font-size: 48px;
+}
+
+footer{
+    background: #1f2937;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
 
 header nav{
@@ -27,13 +44,13 @@ header nav ul li{
 
 header nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .landing{
     display: flex;
     align-items: center;
-    
 }
 
 .landing-image{
@@ -43,9 +60,55 @@ header nav ul li a{
 }
 
 .sign-up-btn{
-    background: blue;
+    background: #3882f6;
     color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 6px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-items{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.one{
+    border: 0.2em solid blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.quote{
+    background: #e5e7eb;
+    padding: 40px;
+    justify-content: center;
+    /* width: 100%; */
+    font-size: 18px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    float: right;
+    font-weight: bold;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    background: #3882f6;
+    color: #fff;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    width: 80vw;
 }
